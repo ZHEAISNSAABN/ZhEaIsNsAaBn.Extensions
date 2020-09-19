@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>ZhEaIsNsAaBn.Extensions</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SS.NuGet.Publish" Version="1.0.1912.22">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="ZhEaIsNsAaBn.Exceptions" Version="2.0.0" />
+    <PackageReference Include="ZhEaIsNsAaBn.Exceptions.Try" Version="2.0.0" />
+    <PackageReference Include="ZhEaIsNsAaBn.Exceptions.UniqueDictionary" Version="2.0.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <NuGetPublishType>remote</NuGetPublishType>
+    <NuGetPublishLocation>https://pkgs.dev.azure.com/ZhEaIsNsAaBn/_packaging/ZhEaIsNsAaBn/nuget/v3/index.json</NuGetPublishLocation>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>ZhEaIsNsAaBn</Authors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\Workspace\ArabFinanceAPI\ArabFinance\ZhEaIsNsAaBn\ZhEaIsNsAaBn.Extensions\ZhEaIsNsAaBn.UniqueDictionary\</OutputPath>
+  </PropertyGroup>
+</Project>

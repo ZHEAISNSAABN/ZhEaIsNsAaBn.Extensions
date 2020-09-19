@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>ZhEaIsNsAaBn.Extensions</RootNamespace>
+    <Product>ZhEaIsNsAaBn.Extensions.Cache</Product>
+    <Authors>ZhEaIsNsAaBn</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SS.NuGet.Publish" Version="1.0.1912.22">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Unity.Abstractions" Version="5.11.6" />
+    <PackageReference Include="ZhEaIsNsAaBn.Extensions" Version="1.0.0.4" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <NuGetPublishType>remote</NuGetPublishType>
+    <NuGetPublishLocation>https://pkgs.dev.azure.com/ZhEaIsNsAaBn/_packaging/ZhEaIsNsAaBn/nuget/v3/index.json</NuGetPublishLocation>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.0.2.8</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\Workspace\ArabFinanceAPI\ArabFinance\ZhEaIsNsAaBn\ZhEaIsNsAaBn.Extensions\ZhEaIsNsAaBn.Cache\</OutputPath>
+  </PropertyGroup>
+
+</Project>
