@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/OldCode/">
+    <Project Path="ZhEaIsNsAaBn.APPSettings/ZhEaIsNsAaBn.APPSettings.csproj" />
+    <Project Path="ZhEaIsNsAaBn.AutoMap/ZhEaIsNsAaBn.AutoMap.csproj" />
+    <Project Path="ZhEaIsNsAaBn.Cache/ZhEaIsNsAaBn.Cache.csproj" />
+    <Project Path="ZhEaIsNsAaBn.DbContextFactory/ZhEaIsNsAaBn.DbContextFactory.csproj" />
+    <Project Path="ZhEaIsNsAaBn.EFChangeNotification/ZhEaIsNsAaBn.EFChangeNotification.csproj" />
+    <Project Path="ZhEaIsNsAaBn.EntityChangeNotifier/ZhEaIsNsAaBn.EntityChangeNotifier.csproj" />
+    <Project Path="ZhEaIsNsAaBn.Extensions/ZhEaIsNsAaBn.Extensions.csproj" />
+    <Project Path="ZhEaIsNsAaBn.interfaces/ZhEaIsNsAaBn.interfaces.csproj" />
+    <Project Path="ZhEaIsNsAaBn.UniqueDictionary/ZhEaIsNsAaBn.UniqueDictionary.csproj" />
+  </Folder>
+</Solution>
