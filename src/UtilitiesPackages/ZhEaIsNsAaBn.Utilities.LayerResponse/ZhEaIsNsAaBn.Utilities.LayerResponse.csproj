@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\..\ZhEaIsNsAaBnLogo.png">
+            <Pack>True</Pack>
+            <PackagePath>.\</PackagePath>
+        </None>
+    </ItemGroup>
+
+    <PropertyGroup>
+        <Pack>True</Pack>
+        <PackagePath>.\</PackagePath>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Author>ZhEaIsNsAaBn</Author>
+        <Authors>ZhEaIsNsAaBn</Authors>
+        <Title>ZhEaIsNsAaBn.Utilities.LayerResponse</Title>
+        <Product>ZhEaIsNsAaBn.Utilities.LayerResponse</Product>
+
+        <Version>0.0.0-dev-0001</Version>
+        <InformationalVersion>0.0.0-dev-0001</InformationalVersion>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <FileVersion>0.0.0.1</FileVersion>
+
+        <PackageIcon>ZhEaIsNsAaBnLogo.png</PackageIcon>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+        <NuGetPublishSkipDuplicate>true</NuGetPublishSkipDuplicate>
+        <RootNamespace>ZhEaIsNsAaBn.Utilities</RootNamespace>
+    </PropertyGroup>
+
+</Project>

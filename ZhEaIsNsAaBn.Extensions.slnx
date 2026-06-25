@@ -10,4 +10,13 @@
     <Project Path="OldCode/ZhEaIsNsAaBn.interfaces/ZhEaIsNsAaBn.interfaces.csproj" />
     <Project Path="OldCode/ZhEaIsNsAaBn.UniqueDictionary/ZhEaIsNsAaBn.UniqueDictionary.csproj" />
   </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="README.md" />
+    <File Path="ZhEaIsNsAaBnLogo.png" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/UtilitiesPackages/">
+    <Project Path="src/UtilitiesPackages/ZhEaIsNsAaBn.Utilities.LayerResponse/ZhEaIsNsAaBn.Utilities.LayerResponse.csproj" />
+  </Folder>
 </Solution>
